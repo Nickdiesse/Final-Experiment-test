@@ -10,9 +10,9 @@ from rdflib import Graph
 def connect_to_db():
     return psycopg2.connect(
         host="localhost",  
-        database="Esempionefinale",  
-        user="postgres",  
-        password="nicola"  
+        database="",  
+        user="",  
+        password=""  
     )
 
 # 1. Carica i modelli locali
