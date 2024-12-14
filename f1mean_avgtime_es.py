@@ -3,9 +3,9 @@ import psycopg2
 # Connessione al database PostgreSQL
 conn = psycopg2.connect(
     host="localhost",
-    database="Esempionefinale",
-    user="postgres",
-    password="nicola"
+    database="",
+    user="",
+    password=""
 )
 cursor = conn.cursor()
 
