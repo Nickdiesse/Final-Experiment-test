@@ -10,9 +10,9 @@ from gpt4all import GPT4All
 def connect_to_db():
     return psycopg2.connect(
         host="localhost",  # Inserisci nome host
-        database="Esempionefinale",  # Inserisci il nome del database
-        user="postgres",  # Inserisci il nome utente
-        password="nicola"  # Inserisci la password
+        database="",  # Inserisci il nome del database
+        user="",  # Inserisci il nome utente
+        password=""  # Inserisci la password
     )
 
 # Carica i due file CSV locali
