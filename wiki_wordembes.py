@@ -16,9 +16,9 @@ def calculate_semantic_similarity(ground_truth, answer):
 def connect_to_db():
     return psycopg2.connect(
         host="localhost",  
-        database="Esempionefinale",  
-        user="postgres",  
-        password="nicola"  
+        database="",  
+        user="",  
+        password=""  
     )
 
 def count_correct_responses(threshold=0.5):
