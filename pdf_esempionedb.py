@@ -14,9 +14,9 @@ from transformers import AutoTokenizer
 def save_to_db(result):
     conn = psycopg2.connect(
         host="localhost",
-        database="Esempionefinale",
-        user="postgres",
-        password="nicola"
+        database="",
+        user="",
+        password=""
     )
     cursor = conn.cursor()
 
