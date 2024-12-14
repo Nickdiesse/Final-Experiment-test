@@ -57,9 +57,9 @@ qa_orca = RetrievalQA(orca, retriever)
 def connect_to_db():
     return psycopg2.connect(
         host="localhost",
-        database="Esempionefinale",
-        user="postgres",
-        password="nicola"
+        database="",
+        user="",
+        password=""
     )
 
 # Funzione principale
